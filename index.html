@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Text Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Extract Text from Multiple Images</h1>
+        <input type="file" id="imageInput" accept="image/*" multiple>
+        <div id="imagePreview"></div>
+        <button id="extractText">Extract Text</button>
+        <div id="extractedText"></div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/4.0.2/tesseract.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
